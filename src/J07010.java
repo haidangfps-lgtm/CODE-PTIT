@@ -14,6 +14,7 @@ class SV36 {
     private String dob;
     private float diem;
     private static int ID = 1;
+
     public SV36(String ten, String lop, String dob, float diem) throws ParseException {
 
         this.masv = String.format("B20DCCN%03d", ID++);
@@ -40,11 +41,11 @@ public class J07010 {
         while (sc.hasNext()) {
             int t = Integer.parseInt(sc.nextLine());
             while (t-- > 0) {
-                String name = sc.nextLine();
+                String ten =  sc.nextLine();
                 String lop = sc.nextLine();
                 String dob = sc.nextLine();
                 float diem = Float.parseFloat(sc.nextLine());
-                System.out.println(new SV36(name, lop, dob, diem));
+                System.out.println(new SV36(ten, lop, dob, diem));
             }
         }
     }
