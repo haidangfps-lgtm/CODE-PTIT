@@ -20,7 +20,7 @@ public class J07030 {
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         ObjectInputStream ois1 = new ObjectInputStream(new FileInputStream("DATA1.in"));
-        ObjectInputStream ois2 = new ObjectInputStream(new FileInputStream("SV.in"));
+        ObjectInputStream ois2 = new ObjectInputStream(new FileInputStream("PHONG.in"));
 
         ArrayList<Integer> list1 = (ArrayList<Integer>) ois1.readObject();
         ArrayList<Integer> list2 = (ArrayList<Integer>) ois2.readObject();
