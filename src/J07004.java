@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class J07004 {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner sc = new Scanner(new File("DATA.in"));
+        Scanner sc = new Scanner(new File("SINHVIEN.in"));
         int [] dang = new int [1000];
         // create array to store
         while(sc.hasNextInt()){
