@@ -41,7 +41,7 @@ class Pair<f , s> {
 
 public class J07017 {
     public static void main(String[] args) throws IOException {
-        Scanner sc = new Scanner(new File("DATA.in"));
+        Scanner sc = new Scanner(new File("SINHVIEN.in"));
         int t = sc.nextInt();
         while (t-- > 0) {
             int n = sc.nextInt();

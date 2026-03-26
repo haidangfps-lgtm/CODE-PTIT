@@ -34,7 +34,7 @@ class SV36 {
 public class J07010 {
 
     public static void main(String[] args) throws ParseException, FileNotFoundException {
-        Scanner sc = new Scanner(new File("PHONG.in"));
+        Scanner sc = new Scanner(new File("Khachhang.in"));
         while (sc.hasNext()) {
             int t = Integer.parseInt(sc.nextLine());
             while (t-- > 0) {

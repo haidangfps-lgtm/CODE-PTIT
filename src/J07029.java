@@ -15,7 +15,7 @@ public class J07029 {
         return true;
     }
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("DATA.in"));
+        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("SINHVIEN.in"));
         ArrayList<Integer> list = (ArrayList<Integer>) ois.readObject();
         int[] count =  new int[1000001];
         for(int x : list){

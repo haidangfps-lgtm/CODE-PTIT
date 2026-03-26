@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class J07022 {
     public static void main(String[] args) throws IOException, FileNotFoundException {
-        Scanner sc = new Scanner(new File("DATA.in"));
+        Scanner sc = new Scanner(new File("SINHVIEN.in"));
         // Dùng ArrayList để lưu các từ không phải là int
         ArrayList<String> list = new ArrayList<>();
         while(sc.hasNext()){

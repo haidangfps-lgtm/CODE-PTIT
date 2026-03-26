@@ -10,7 +10,7 @@ public class J07005 {
         int[] dang = new int[1000];
         for (int i = 0; i < 100000; i++) {
             dang[sc.readInt()]++;
-           // sc.readInt() la doc so lan xuat hien
+           // sc.readInt() la doc so lan xuat hienx
         }
         for (int i = 0; i < 1000; i++) {
             if (dang[i] > 0) {
