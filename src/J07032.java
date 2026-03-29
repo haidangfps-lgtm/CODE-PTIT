@@ -30,7 +30,7 @@ public class J07032 {
         int[] d1 = new int[1000011];
         int[] d2 = new int[1000011];
 
-        ObjectInputStream ois1 = new ObjectInputStream(new FileInputStream("DATA1.in"));
+        ObjectInputStream ois1 = new ObjectInputStream(new FileInputStream("SINHVIEN.in"));
         ObjectInputStream ois2 = new ObjectInputStream(new FileInputStream("DATA2.in"));
 
         ArrayList<Integer> list1 = (ArrayList<Integer>) ois1.readObject();

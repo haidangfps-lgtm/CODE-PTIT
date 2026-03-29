@@ -31,7 +31,7 @@
     public class J07045 {
         public static void main(String[] args) throws IOException {
             ArrayList<LoaiPhong> ds = new ArrayList<>();
-            Scanner in = new Scanner(new File("PHONG.in"));
+            Scanner in = new Scanner(new File("Khachhang.in"));
             int n = Integer.parseInt(in.nextLine());
             while (n-- > 0) {
                 ds.add(new LoaiPhong(in.nextLine()));
@@ -44,7 +44,7 @@
     }
     /*
     public static void main(String[] args) throws IOException, FileNotFoundException {
-        Scanner sc = new Scanner(new File("PHONG.in"));
+        Scanner sc = new Scanner(new File("Khachhang.in"));
         ArrayList<LoaiPhong> list = new ArrayList<>();
         int t = sc.nextInt();
         while (t-- > 0) {

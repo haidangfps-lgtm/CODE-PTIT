@@ -30,7 +30,7 @@ public class J07034 {
 
 
     public static void main(String[] args) throws IOException, FileNotFoundException {
-        Scanner sc = new Scanner(new File("MONHOC.in"));
+        Scanner sc = new Scanner(new File("Khachhang.in"));
         ArrayList<dsmonhoc> dsmonhocs = new ArrayList<dsmonhoc>();
         while (sc.hasNextLine()) {
             int t = Integer.parseInt(sc.nextLine());

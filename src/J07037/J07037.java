@@ -28,7 +28,7 @@ class Doanhnghiep implements Comparable<Doanhnghiep>{
 
 public class J07037 {
     public static void main(String[] args) throws IOException , FileNotFoundException {
-        Scanner sc = new Scanner(new File("PHONG.in"));
+        Scanner sc = new Scanner(new File("Khachhang.in"));
         int t = Integer.parseInt(sc.nextLine());
         ArrayList<Doanhnghiep> list = new ArrayList<>();
         while(t-- > 0){
