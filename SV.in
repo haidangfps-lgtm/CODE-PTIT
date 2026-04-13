@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+
+public class TaoFile {
+    public static void main(String[] args) throws IOException, ParseException {
+        // Tạo data mẫu
+        ArrayList<Sinhvien> list = new ArrayList<>();
+        list.add(new Sinhvien(1, "Nguyen Van An", "D20CQCN04-B", "02/12/2002", 3.2f));
+        list.add(new Sinhvien(2, "Tran Thi Bich", "D20CQCN04-B", "15/05/2001", 3.5f));
+
+        // Ghi ra file SV.in
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("SV.in"));
+        oos.writeObject(list);
+        oos.close();
+        
+        System.out.println("Da tao file SV.in thanh cong!");
+    }
+}
